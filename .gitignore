@@ -1,0 +1,29 @@
+# Ignore everything by default
+*
+
+# Re-allow directories so we can unignore files inside them
+!*/
+
+# Keep the .gitignore file tracked
+!.gitignore
+
+# Only track Python and Robot files
+!*.py
+!*.robot
+!**/*.py
+!**/*.robot
+
+# Explicitly ignore common binary/image/markup files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.html
+*.htm
+*.xml
+
+# Optional: ignore compiled Python artifacts
+__pycache__/
+*.pyc
